@@ -1,6 +1,6 @@
 <?php
 $id = $_POST['id_tov'];//получаем id товара
-$count_good = $_POST['count'];
+$count_good = $_POST['count_good']; // получаем количество товара
 
         session_start();
         if (!isset($_SESSION['cart'])) {//если сесия корзины не существует
