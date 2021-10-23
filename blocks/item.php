@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
     echo "<button class='button-plus' id='btn_plus_$row[id]' onclick='btnPlus($row[id])'>";
     echo "+";
     echo "</button>";
-    echo "<button id='$row[id]' class='button-add-to-cart' onclick='addToCardEvent()'>";
+    echo "<button id='$row[id]' class='button-add-to-cart' onclick='addToCardEvent($row[id])'>";
     echo "Добавить в корзину";
     echo "</button>";
     echo "</div>";

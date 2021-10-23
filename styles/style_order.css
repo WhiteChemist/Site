@@ -172,8 +172,8 @@ ul.vr li {
 
 .item {
     display: block;
-    width: 310px;
-    height: 330px;
+    width: 340px;
+    height: 360px;
     text-align: center;
     color: #BD842E;
     font-family: 'Marmelad', sans-serif;
@@ -183,7 +183,8 @@ ul.vr li {
     line-height: 21px;
     background: rgba(0, 0, 0, 0.13);
     float: initial;
-    margin-right: 30px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .item:nth-child(n+6) {
@@ -241,6 +242,7 @@ ul.vr li {
     width: 21px;
     height: 20px;
     float: left;
+    margin-left: 40%;
 }
 
 .button-plus {
@@ -250,6 +252,7 @@ ul.vr li {
     width: 21px;
     height: 20px;
     float: left;
+    flex-direction: row;
 }
 
 .button-add-to-cart {
@@ -274,6 +277,22 @@ ul.vr li {
 
 /*END OF GOODS*/
 
+div h2.color-text {
+    display: block;
+    margin-right: 50%;
+    margin-left: 50%;
+    font-size: 48px;
+    color: #BD842E;
+    font-family: 'Marmelad', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #000000 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    float: left;
+}
+
 .footer {
     height: auto;
     width: 100%;
@@ -293,9 +312,26 @@ ul.vr li {
     -webkit-text-stroke-color: black;
 }
 
+.order-button {
+    display: flexbox;
+    flex-direction: column;
+    font-size: 24px;
+    color: #BD842E;
+    font-family: 'Marmelad', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #000000 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    float: left;
+}
+
 div.color-text-order {
     display: flexbox;
     flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 24px;
     color: #BD842E;
     font-family: 'Marmelad', sans-serif;
